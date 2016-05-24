@@ -1,0 +1,5 @@
+@import '../node_modules/respond-to-mixin/respond-to';
+body{
+  background-color: red;
+   @include respond-to($to: 'medium') { background-color: blue;}
+}
